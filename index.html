@@ -200,15 +200,21 @@
             </div>
           </div>
           <div class="console-content">
-            <pre class="code-text whitespace-pre-wrap">$ console.log(about_me);
+            <pre class="code-text whitespace-pre-wrap">$$ console.log(about_me);
 {
   name: "Evan Jamaq",
-  role: "Junior Front-End Developer",
+  role: "Full-Stack Developer",
   location: "Indonesia",
   passion: "Learning and building web experiences",
-  skills: ["HTML", "CSS", "JavaScript", "React", "Next.js", "Tailwind"],
+  tech_stack: {
+    front_end: ["HTML", "CSS", "JavaScript", "React", "Next.js", "Tailwind"],
+    back_end: ["Python", "PHP", "Flask", "Laravel"],
+    database: ["MySQL", "Firebase"],
+    tools: ["Git", "GitHub", "Vercel"]
+  },
   status: "Always learning and improving"
-}</pre>
+}
+</pre>
             <div class="mt-4 flex items-center">
               <span class="code-text">$ </span>
               <span class="typing-animation ml-2 code-text">npm start creativity</span>
@@ -429,7 +435,6 @@
         <div>
           <a href="#home" class="font-bold text-xl flex items-center gap-2">
             <span class="text-primary">Evan</span>
-            <span class="text-base-content">Jamaq</span>
           </a>
           <p class="text-sm opacity-70 mt-1">Front-End Developer</p>
         </div>
